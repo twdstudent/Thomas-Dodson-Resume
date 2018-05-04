@@ -66,6 +66,7 @@ h4 {
     display: table;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -300,7 +301,7 @@ footer .cv-pdf i:hover {
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 8em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
@@ -315,6 +316,15 @@ footer .cv-pdf i:hover {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+}
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
 
 
