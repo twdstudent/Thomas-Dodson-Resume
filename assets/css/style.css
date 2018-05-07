@@ -298,7 +298,7 @@ footer .cv-pdf i:hover {
 }
 
 .timeline-item::before {
-    color: attr(dates);
+    content: attr(dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
