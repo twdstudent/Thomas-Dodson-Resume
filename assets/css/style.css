@@ -80,8 +80,9 @@ h4 {
 
 /* ------ heading ------ */
 
-header {
+.container-fluid {
     margin: 0;
+    padding: 0;
 }
 
 .heading {
