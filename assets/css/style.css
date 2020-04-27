@@ -204,15 +204,27 @@ footer .cv-pdf i:hover {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+   /* background: #8f8f8f; */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-facebook {
+    background-color: #3c5a99;
+}
+
+.fa-linkedin {
+    background-color: #0072b1;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(to top right, rgba(245,133,41), rgba(254,218,119), rgba(221,42,123), rgba(129,52,175), rgba(81,91,212));
 }
 
 .social-links li a i:hover {
