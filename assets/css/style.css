@@ -375,6 +375,18 @@ button[type="submit"] {
     color: #fafafa;
 }
 
+.modal-test {
+    background: url("../images/Profile-pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 /* ----- Media querys ----- */
 
 @media(min-width: 992px) {
