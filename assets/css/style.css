@@ -189,11 +189,28 @@ img {
     margin-top:15px;
 }
 
-.modal-image {
-    background: url("../images/Profile-pic.jpg");
+.pointer {
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 3px;
+    border-bottom: none;
+    background-color: #f3f3f3;
+}
+
+.modal-body {
+    position: relative;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.modal-image-queens-hotel {
+    background: url("../images/landscapes/queens-hotel.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
     height: 200px;
     width: 100%;
     margin-left: auto;
@@ -203,11 +220,12 @@ img {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.modal-image-two {
-    background: url("../images/canvas.jpg");
+.modal-image-armley-park {
+    background: url("../images/landscapes/armley-park.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
     height: 200px;
     width: 100%;
     margin-left: auto;
@@ -227,6 +245,8 @@ img {
 .hvr-sweep-to-right:before {
     background: rgba(0, 0, 0, 0.2);
     height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* ----- Footer ----- */
@@ -270,22 +290,6 @@ footer .cv-pdf i:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-.expand-icon {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 22px;
-    line-height: 7px;
-    text-align: center;
-    color: #171111;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    float: right;
 }
 
 .fa-facebook {
