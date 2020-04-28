@@ -167,9 +167,11 @@ h4 {
 /*--- images ---*/
 
 .image-container {
-    width: 85%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 img {
@@ -184,6 +186,7 @@ img {
 
 .image-wrapper {
     height: 300px;
+    margin-top:15px;
 }
 
 .modal-image {
