@@ -164,6 +164,8 @@ h4 {
     letter-spacing: 2px;
 }
 
+/*--- images ---*/
+
 img {
      display: block;
     margin-left: auto;
@@ -172,6 +174,20 @@ img {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
+.modal-image {
+    background: url("../images/Profile-pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /* ----- hover.css ---- */
@@ -383,18 +399,6 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
-}
-
-.modal-test {
-    background: url("../images/Profile-pic.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
-    width: 150px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
 /* ----- Media querys ----- */
