@@ -203,6 +203,20 @@ img {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.modal-image-two {
+    background: url("../images/canvas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 /* ----- hover.css ---- */
 
 .hvr-sweep-to-bottom:before {
