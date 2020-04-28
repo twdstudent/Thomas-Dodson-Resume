@@ -164,6 +164,16 @@ h4 {
     letter-spacing: 2px;
 }
 
+img {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
 /* ----- hover.css ---- */
 
 .hvr-sweep-to-bottom:before {
