@@ -174,35 +174,18 @@ h4 {
     margin-bottom: 20px;
 }
 
-.image-wrapper {
-    height: 200px;
-    margin-top:15px;
-}
-
 .pointer {
     cursor: pointer;
 }
 
-.modal-header {
-    padding: 3px;
-    border-bottom: none;
-    background-color: #f3f3f3;
-}
-
-.modal-body {
-    position: relative;
-    padding: 10px;
-    background-color: #f3f3f3;
-}
-
-.modal-image-queens-hotel {
-    background: url("../images/landscapes/queens-hotel.jpg");
+.testing-new {
+    background: url("../images/landscapes/armley.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     height: 200px;
-    width: 100%;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     transition: all .5s ease-in-out;
@@ -210,20 +193,7 @@ h4 {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.modal-image-armley-park {
-    background: url("../images/landscapes/armley-park.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    height: 200px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
+
 
 /* ----- hover.css ---- */
 
