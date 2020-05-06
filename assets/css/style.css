@@ -185,6 +185,10 @@ img {
     border-style: none
 }
 
+.image-container {
+    margin-top: 15px;
+}
+
 .image-wrapper {
     margin-bottom: 15px;
 }
