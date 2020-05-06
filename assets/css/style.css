@@ -274,6 +274,14 @@ footer .cv-pdf i:hover {
 .social-margin {
     margin-left: 20px;
 }
+
+.zoom-social {
+    transition: transform .2s;
+}
+
+.zoom-social:hover {
+    transform: scale(1.25);
+}
 /* ----- Three Reasons ----- */
 
 .three-reasons-icon {
