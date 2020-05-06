@@ -193,6 +193,14 @@ img {
     margin-bottom: 15px;
 }
 
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
 /* ----- hover.css ---- */
 
 .hvr-sweep-to-bottom:before {
