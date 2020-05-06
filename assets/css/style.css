@@ -76,6 +76,7 @@ h4 {
 
 .row-table {
     display: table;
+    min-height: 550px;
 }
 
 .history-heading,
