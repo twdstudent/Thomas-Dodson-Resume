@@ -437,9 +437,21 @@ button[type="submit"] {
 
 @media(min-width: 992px) {
     .section-column {
-        padding: 0 30px 30px;
+        padding: 0px 30px 30px;
         float: none;
         display: table-cell;
+    }
+
+    .history-items {
+        margin-left: 30px;
+    }
+
+    .personal-info-item {
+        margin-left: 20px;
+    }
+
+    .section-heading{
+        margin-left: 20px;
     }
 
     .center-form {
